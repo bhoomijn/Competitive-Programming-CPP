@@ -4,19 +4,28 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![HackerRank](https://img.shields.io/badge/HackerRank-Solver-brightgreen.svg)](https://www.hackerrank.com/)
 
+A growing collection of well-structured C++ programs, coding exercises, and HackerRank-style problem solutions focused on building a strong foundation in logic, algorithms, and competitive programming.
+
 ## Overview
 
-This repository is a structured collection of C++ programs, coding exercises, and HackerRank-style problem solutions. It is built for consistent practice in logic building, algorithmic thinking, and competitive programming.
+This repository is built for consistent practice in C++ programming. It contains beginner-friendly exercises, core concept implementations, and problem-solving examples across major topics in C++ and competitive coding.
 
-## Why this repo?
+The purpose of this repository is to:
+- strengthen C++ fundamentals
+- improve problem-solving skills
+- practice logical thinking and coding patterns
+- build a solid base for DSA and competitive programming
+- maintain a clean, organized, and reusable project structure
 
-- Strengthen C++ fundamentals
-- Practice problem-solving regularly
-- Improve readability and code quality
-- Build confidence for HackerRank and DSA challenges
-- Keep solutions organized by topic
+## Why This Repo?
 
-## Topics Included
+- Practical coding practice
+- Topic-wise learning structure
+- Clean, readable, and reusable C++ solutions
+- Beginner to intermediate-level coverage
+- Suitable for HackerRank and general DSA practice
+
+## Topics Covered
 
 - Introduction
 - Basic Data Types
@@ -99,17 +108,17 @@ Competitive-Programming-CPP/
 ### Prerequisites
 
 - GCC/G++ compiler
-- VS Code / any C++ IDE
-- Git and GitHub
+- VS Code or any C++ editor
+- Git installed
 
-### Compile a file
+### Compile and Run a Program
 
 ```bash
 g++ Introduction/HelloWorld.cpp -o hello
 ./hello
 ```
 
-### Build using CMake
+### Build with CMake
 
 ```bash
 mkdir build
@@ -118,13 +127,50 @@ cmake ..
 make
 ```
 
-## Progress
+## Example
 
-This repository is continuously growing with new C++ practices, problem solutions, and algorithm implementations.
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello, World!" << endl;
+    return 0;
+}
+```
+
+## Progress Tracker
+
+- [x] Introduction
+- [x] Basic Data Types
+- [x] Conditionals
+- [x] Loops
+- [x] Arrays
+- [x] Strings
+- [x] Functions
+- [x] Searching
+- [x] Sorting
+- [x] Recursion
+- [x] STL
+
+## Learning Path
+
+1. Master C++ basics and syntax
+2. Practice variables, input/output, and operators
+3. Solve conditionals and loops
+4. Work on arrays and strings
+5. Understand functions and recursion
+6. Learn sorting, searching, and STL for advanced problem solving
+
+## Resources
+
+- [HackerRank](https://www.hackerrank.com/)
+- [C++ Reference](https://en.cppreference.com/)
+- [GeeksforGeeks C++](https://www.geeksforgeeks.org/c-plus-plus/)
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
 
 ## Connect
 
@@ -132,5 +178,5 @@ This project is licensed under the MIT License.
 
 ---
 
-Last Updated: 2026-10-31
+Last Updated: 2026-10-31  
 Status: Active Development
