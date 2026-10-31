@@ -1,69 +1,133 @@
-# Prerequisites
-*.d
+# C++ HackerRank Solutions 🚀
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+[![C++](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://isocpp.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![HackerRank](https://img.shields.io/badge/HackerRank-Solver-brightgreen.svg)](https://www.hackerrank.com/)
 
-# Precompiled Headers
-*.gch
-*.pch
+## Overview
 
-# Linker files
-*.ilk
+A growing collection of professional **C++ solutions to HackerRank challenges** and problem-solving exercises. This repository is designed to build strong fundamentals in logic, algorithms, and competitive programming through consistent practice.
 
-# Debugger Files
-*.pdb
+## Repository Goals
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
+- Strengthen C++ basics and syntax
+- Improve problem-solving and algorithmic thinking
+- Practice HackerRank-style competitive coding
+- Maintain clean, readable, and well-structured code
+- Build a solid foundation for Data Structures & Algorithms (DSA)
 
+## Topics Covered
 
-# Fortran module files
-*.mod
-*.smod
+- Introduction
+- Basic Data Types
+- Conditionals
+- Loops
+- Arrays
+- Strings
+- Functions
+- Searching
+- Sorting
+- Recursion
+- STL
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+## Repository Structure
 
-# Executables
-*.exe
-*.out
-*.app
+```text
+Competitive-Programming-CPP/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── CMakeLists.txt
+├── Introduction/
+│   ├── README.md
+│   └── HelloWorld.cpp
+├── Basic-Data-Types/
+├── Conditionals/
+├── Loops/
+├── Arrays/
+├── Strings/
+├── Functions/
+├── Searching/
+├── Sorting/
+├── Recursion/
+├── STL/
+└── .github/
+```
 
-# Build directories
-build/
-Build/
-build-*/
+## Getting Started
 
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
+### Prerequisites
 
-# Temporary files
-*.tmp
-*.log
-*.bak
-*.swp
+- GCC/G++ compiler
+- VS Code or any C++ editor
+- Git and GitHub
 
-# vcpkg
-vcpkg_installed/
+### Compile and Run
 
-# debug information files
-*.dwo
+```bash
+g++ Introduction/HelloWorld.cpp -o hello
+./hello
+```
 
-# test output & cache
-Testing/
-.cache/
+### Using CMake
+
+```bash
+mkdir build
+cd build
+cmake ..
+make
+```
+
+## Solution Format
+
+Each solution should follow a clean style:
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    // Problem solution
+    return 0;
+}
+```
+
+## Progress Tracker
+
+- [ ] Introduction
+- [ ] Basic Data Types
+- [ ] Conditionals
+- [ ] Loops
+- [ ] Arrays
+- [ ] Strings
+- [ ] Functions
+- [ ] Searching
+- [ ] Sorting
+- [ ] Recursion
+- [ ] STL
+
+## Learning Path
+
+1. Master basics: variables, input/output, loops
+2. Practice conditions and arrays
+3. Solve strings and functions
+4. Understand searching, sorting, and recursion
+5. Move to STL and advanced competitive coding
+
+## Resources
+
+- [HackerRank](https://www.hackerrank.com/)
+- [C++ Reference](https://en.cppreference.com/)
+- [GeeksforGeeks C++](https://www.geeksforgeeks.org/c-plus-plus/)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Connect
+
+- GitHub: [bhoomijn](https://github.com/bhoomijn)
+
+---
+
+**Status:** Active Development
