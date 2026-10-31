@@ -1,10 +1,12 @@
-# Standard Template Library (STL)
+#include <iostream>
+#include <vector>
+using namespace std;
 
-This section introduces core STL containers and usage.
-
-## Topics
-
-- `vector`
-- `stack`
-- `queue`
-- `map`
+int main() {
+    vector<int> nums = {10, 20, 30, 40};
+    for (int x : nums) {
+        cout << x << " ";
+    }
+    cout << endl;
+    return 0;
+}

@@ -1,20 +1,18 @@
-# Basic Data Types
+#include <iostream>
+using namespace std;
 
-This section covers common C++ data types and their usage.
+int main() {
+    int age = 21;
+    float price = 49.99f;
+    double pi = 3.14159;
+    char grade = 'A';
+    bool active = true;
 
-## Included Concepts
+    cout << "Age: " << age << endl;
+    cout << "Price: " << price << endl;
+    cout << "Pi: " << pi << endl;
+    cout << "Grade: " << grade << endl;
+    cout << "Active: " << active << endl;
 
-- `int`
-- `float`
-- `double`
-- `char`
-- `bool`
-
-## Example
-
-```cpp
-int age = 21;
-float price = 49.99f;
-char grade = 'A';
-bool active = true;
-```
+    return 0;
+}

@@ -1,9 +1,12 @@
-# Recursion
+#include <iostream>
+using namespace std;
 
-This section covers recursion-based problem solving.
+int factorial(int n) {
+    if (n == 0 || n == 1) return 1;
+    return n * factorial(n - 1);
+}
 
-## Topics
-
-- factorial
-- Fibonacci
-- recursion basics
+int main() {
+    cout << factorial(5) << endl;
+    return 0;
+}

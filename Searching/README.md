@@ -1,11 +1,3 @@
-#include <iostream>
-using namespace std;
+# Searching
 
-int addNumbers(int a, int b) {
-    return a + b;
-}
-
-int main() {
-    cout << "Result: " << addNumbers(5, 7) << endl;
-    return 0;
-}
+This folder contains basic searching algorithms such as linear and binary search.

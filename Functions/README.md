@@ -1,10 +1,3 @@
-#include <iostream>
-#include <string>
-using namespace std;
+# Functions
 
-int main() {
-    string name = "Bhoomi";
-    cout << "Name: " << name << endl;
-    cout << "Length: " << name.length() << endl;
-    return 0;
-}
+This folder focuses on reusable functions, parameters, and return values.

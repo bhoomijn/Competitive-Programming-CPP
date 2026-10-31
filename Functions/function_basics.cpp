@@ -1,10 +1,11 @@
-# Functions
+#include <iostream>
+using namespace std;
 
-This section introduces reusable functions in C++.
+int add(int a, int b) {
+    return a + b;
+}
 
-## Topics
-
-- function declaration
-- function definition
-- parameters
-- return types
+int main() {
+    cout << add(4, 6) << endl;
+    return 0;
+}

@@ -1,10 +1,10 @@
-# Strings
+#include <iostream>
+#include <string>
+using namespace std;
 
-This section introduces string handling in C++.
-
-## Topics
-
-- string declaration
-- reading input
-- printing strings
-- basic manipulation
+int main() {
+    string name = "Bhoomi";
+    cout << "Name: " << name << endl;
+    cout << "Length: " << name.length() << endl;
+    return 0;
+}

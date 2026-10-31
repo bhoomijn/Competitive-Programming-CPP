@@ -1,10 +1,12 @@
-# Arrays
+#include <iostream>
+using namespace std;
 
-This section demonstrates basic array operations in C++.
+int main() {
+    int numbers[5] = {12, 25, 30, 42, 19};
 
-## Topics
-
-- declaration
-- indexing
-- iteration
-- sum calculation
+    for (int i = 0; i < 5; i++) {
+        cout << numbers[i] << " ";
+    }
+    cout << endl;
+    return 0;
+}

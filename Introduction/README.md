@@ -1,8 +1,3 @@
-cmake_minimum_required(VERSION 3.16)
-project(CompetitiveProgrammingCPP LANGUAGES CXX)
+# Introduction
 
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_EXTENSIONS OFF)
-
-add_executable(HelloWorld Introduction/HelloWorld.cpp)
+This folder contains the simplest beginner programs to help build confidence in C++ syntax and program structure.

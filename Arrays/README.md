@@ -1,9 +1,3 @@
-#include <iostream>
-using namespace std;
+# Arrays
 
-int main() {
-    for (int i = 1; i <= 5; i++) {
-        cout << "Value: " << i << endl;
-    }
-    return 0;
-}
+This folder contains array basics and common array operations.

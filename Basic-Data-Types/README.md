@@ -1,8 +1,3 @@
-#include <iostream>
-using namespace std;
+# Basic Data Types
 
-int main() {
-    cout << "Hello, World!" << endl;
-    cout << "Welcome to C++ HackerRank Solutions." << endl;
-    return 0;
-}
+This folder demonstrates common C++ data types and their usage in daily coding.

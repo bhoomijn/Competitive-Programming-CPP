@@ -1,10 +1,18 @@
-# Conditionals
+#include <iostream>
+using namespace std;
 
-This section covers decision-making statements in C++.
+int main() {
+    int marks = 82;
 
-## Topics
+    if (marks >= 90) {
+        cout << "Grade: A" << endl;
+    } else if (marks >= 75) {
+        cout << "Grade: B" << endl;
+    } else if (marks >= 60) {
+        cout << "Grade: C" << endl;
+    } else {
+        cout << "Grade: F" << endl;
+    }
 
-- `if`
-- `else if`
-- `else`
-- `switch`
+    return 0;
+}

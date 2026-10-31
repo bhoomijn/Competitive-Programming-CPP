@@ -1,17 +1,8 @@
-# Introduction
+#include <iostream>
+using namespace std;
 
-This section covers the very first steps in C++ programming.
-
-## Topics
-
-- Hello World
-- Basic output using `cout`
-- Basic syntax
-- Program structure
-
-## Run
-
-```bash
-g++ HelloWorld.cpp -o hello
-./hello
-```
+int main() {
+    cout << "Hello, World!" << endl;
+    cout << "Welcome to C++ HackerRank Solutions." << endl;
+    return 0;
+}
