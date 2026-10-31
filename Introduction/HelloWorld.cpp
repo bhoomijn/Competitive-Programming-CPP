@@ -1,16 +1,15 @@
 # Introduction
 
-This folder contains beginner-level C++ programs to build a strong base in programming.
+This section covers the very first steps in C++ programming.
 
 ## Topics
 
-- Hello world
-- Basic input/output
-- Data types
-- Variables
-- Simple arithmetic
+- Hello World
+- Basic output using `cout`
+- Basic syntax
+- Program structure
 
-## Example
+## Run
 
 ```bash
 g++ HelloWorld.cpp -o hello

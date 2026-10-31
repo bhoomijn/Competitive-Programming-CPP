@@ -6,15 +6,15 @@
 
 ## Overview
 
-A growing collection of professional **C++ solutions to HackerRank challenges** and problem-solving exercises. This repository is designed to build strong fundamentals in logic, algorithms, and competitive programming through consistent practice.
+A growing collection of well-structured **C++ solutions to HackerRank challenges** and core programming problems. This repository is focused on building strong problem-solving, logic, and competitive programming skills through consistent practice.
 
 ## Repository Goals
 
-- Strengthen C++ basics and syntax
-- Improve problem-solving and algorithmic thinking
-- Practice HackerRank-style competitive coding
-- Maintain clean, readable, and well-structured code
-- Build a solid foundation for Data Structures & Algorithms (DSA)
+- Develop a solid foundation in C++
+- Practice algorithmic thinking and coding patterns
+- Solve HackerRank and problem-based challenges
+- Write clean, readable, reusable code
+- Build a strong base for DSA and advanced programming
 
 ## Topics Covered
 
@@ -42,16 +42,36 @@ Competitive-Programming-CPP/
 │   ├── README.md
 │   └── HelloWorld.cpp
 ├── Basic-Data-Types/
+│   ├── README.md
+│   └── basic_data_types.cpp
 ├── Conditionals/
+│   ├── README.md
+│   └── if_else.cpp
 ├── Loops/
+│   ├── README.md
+│   └── for_loop.cpp
 ├── Arrays/
+│   ├── README.md
+│   └── array_basics.cpp
 ├── Strings/
+│   ├── README.md
+│   └── string_basics.cpp
 ├── Functions/
+│   ├── README.md
+│   └── function_basics.cpp
 ├── Searching/
+│   ├── README.md
+│   └── linear_search.cpp
 ├── Sorting/
+│   ├── README.md
+│   └── bubble_sort.cpp
 ├── Recursion/
+│   ├── README.md
+│   └── factorial.cpp
 ├── STL/
-└── .github/
+│   ├── README.md
+│   └── vector_demo.cpp
+└── build/
 ```
 
 ## Getting Started
@@ -69,7 +89,7 @@ g++ Introduction/HelloWorld.cpp -o hello
 ./hello
 ```
 
-### Using CMake
+### Quick Build with CMake
 
 ```bash
 mkdir build
@@ -80,39 +100,41 @@ make
 
 ## Solution Format
 
-Each solution should follow a clean style:
+Each solution follows a clean and professional structure:
 
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-    // Problem solution
+    // Problem statement
+    // Approach
+    // Implementation
     return 0;
 }
 ```
 
 ## Progress Tracker
 
-- [ ] Introduction
-- [ ] Basic Data Types
-- [ ] Conditionals
-- [ ] Loops
-- [ ] Arrays
-- [ ] Strings
-- [ ] Functions
-- [ ] Searching
-- [ ] Sorting
-- [ ] Recursion
-- [ ] STL
+- [x] Introduction
+- [x] Basic Data Types
+- [x] Conditionals
+- [x] Loops
+- [x] Arrays
+- [x] Strings
+- [x] Functions
+- [x] Searching
+- [x] Sorting
+- [x] Recursion
+- [x] STL
 
 ## Learning Path
 
 1. Master basics: variables, input/output, loops
-2. Practice conditions and arrays
-3. Solve strings and functions
-4. Understand searching, sorting, and recursion
-5. Move to STL and advanced competitive coding
+2. Practice conditionals, arrays, and strings
+3. Understand functions and modular logic
+4. Learn searching, sorting, and recursion
+5. Move into STL and advanced problem solving
 
 ## Resources
 
